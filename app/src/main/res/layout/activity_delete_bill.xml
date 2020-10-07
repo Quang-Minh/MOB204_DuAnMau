@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.DeleteBill">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E1E"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Quan ly hoa don"
+        app:titleTextColor="#F9F8FA">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvMaHoaDon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã hóa đơn"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtMaHoaDon"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="85dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTenSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sách"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtTenSach"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="90dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSoLuongSachMua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SL.Sách mua"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:id="@+id/edtSoLuongSachMua"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvTheLoaiSach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thể loại sách"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/edtTheLoaiSach"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="60dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNgayMua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày mua"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/edtNgayMua"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="80dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvGiaMua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giá mua"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/edtGiaMua"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="100dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnLuuHoaDon"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Lưu hóa đơn"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            >
+        </Button>
+        <Button
+            android:id="@+id/btnXoaHoaDon"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Xóa hóa đơn"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            >
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

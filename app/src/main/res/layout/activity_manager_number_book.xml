@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.ManagerNumberBook">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarNumberBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E1E"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:title="Quan ly so luong sách"
+        app:titleTextColor="#F9F8FA">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="170dp"
+            android:text="Sách đã bán:"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/sach2" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="170dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="170dp"
+            android:text="Sách tồn kho:"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/sach2" />
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="170dp" />
+    </LinearLayout>
+</LinearLayout>

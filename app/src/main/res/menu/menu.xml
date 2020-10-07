@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Qlsach"
+        android:title="Quản lý sách"/>
+    <item
+        android:id="@+id/QlNguoiDung"
+        android:title="Quản lý người dùng"/>
+    <item
+        android:id="@+id/QlHoaDon"
+        android:title="Quản hóa đơn"/>
+    <item
+        android:id="@+id/QlTheLoai"
+        android:title="Quản lý thể loại"/>
+    <item
+        android:id="@+id/QlSoLuongSach"
+        android:title="Quản lý số lượng sách"/>
+    <item
+        android:id="@+id/QlThongke"
+        android:title="Quản lý thống kê"/>
+    <item
+        android:id="@+id/DangXuat"
+        android:title="Đăng xuất"/>
+</menu>
